@@ -5,22 +5,25 @@ import Cursor from '#/components/cursor/cursor'
 import Header from '#/layouts/header/header'
 import Main from '#/components/main'
 
-// onMouseMove={(e) => {
-//     setDivPosition({
-//         top: e.clientY - 250,
-//         left: e.clientX - 250,
-//     })
-// }}
-
 export default function Page() {
     const [divPosition, setDivPosition] = useState({ top: 0, left: 0 })
 
     return (
-        <div className="">
+        <div
+            className="hide-scrollbar mx-8 lg:mx-48 lg:flex "
+            onMouseMove={(e) => {
+                setDivPosition({
+                    top: e.clientY - 250,
+                    left: e.clientX - 250,
+                })
+            }}
+        >
             <FontFamily />
             <Cursor divPosition={divPosition} />
-            <div className=" lg:mx-64 lg:my-24">
+            <div className="top-0 pt-8 lg:sticky lg:h-screen lg:w-1/2 lg:pt-28 ">
                 <Header />
+            </div>
+            <div className="lg:w-1/2 lg:pt-28 lg:mb-16 mb-4">
                 <Main />
             </div>
         </div>

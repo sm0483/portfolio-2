@@ -6,7 +6,7 @@ import Contact from './contact'
 
 const Main = () => {
     return (
-        <main>
+        <main className="mt-28 space-y-16 opacity-90 lg:mt-0 lg:space-y-24 ">
             <About />
             <Exps />
             <Project />

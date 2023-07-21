@@ -1,12 +1,20 @@
 import Exp from '../experience/experience'
 import experienceItems from '#/data/experience'
+import { useNavContext } from '#/context/nav.context'
 
 const Exps = () => {
-    const expRef = null
+    const { ref2 } = useNavContext()
     return (
-        <section ref={expRef} data-id="section2" id="experience">
-            <div className="container  text-white">
-                <h2 className="font-bold uppercase">Experience</h2>
+        <section
+            ref={ref2}
+            data-id="section2"
+            id="experience"
+            className="space-y-8"
+        >
+            <div className="container space-y-7  text-white lg:space-y-10 ">
+                <h2 className="sm-head font-bold uppercase opacity-100">
+                    Experience
+                </h2>
                 {experienceItems.map((item, index) => (
                     <Exp key={index} {...item} />
                 ))}

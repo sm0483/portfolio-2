@@ -39,6 +39,12 @@ body {
     background: radial-gradient(at center, rgb(75, 75, 75), #27272700);
 }
 
+@media (max-width: 600px) {
+    .cursor {
+        display: none;
+    }
+}
+
 .text-animation {
     @apply text-white
     transition duration-300 ease-in-out  hover:text-red;
@@ -50,7 +56,25 @@ body {
       group-active:w-16;
 }
 
+.nav-div-animation-active {
+    @apply h-[1.5px] w-16 border bg-grey
+     transition-all duration-300 ease-out hover:ease-in group-hover:w-16 group-focus:w-16;
+}
 .nav-a-animation {
     @apply ml-2 transition-all duration-300 ease-out
      hover:text-white focus:text-white active:text-white;
+}
+
+.sm-head {
+    @apply sticky top-0 
+    z-10 bg-black bg-opacity-95 pb-3 pt-3
+    text-white text-opacity-100
+    backdrop-blur-lg backdrop-filter lg:hidden;
+}
+
+.glass {
+    @apply transition-all
+    duration-500 ease-out 
+    hover:p-3 md:rounded-lg md:hover:bg-white/5 
+    md:hover:shadow-lg md:hover:backdrop-blur-sm;
 }

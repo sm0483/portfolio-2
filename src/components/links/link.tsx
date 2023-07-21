@@ -4,29 +4,29 @@ import { FaGithub, FaFileAlt, FaExternalLinkAlt } from 'react-icons/fa'
 const Links = ({ github, docs, live }: LinksType) => {
     return (
         <>
-            <ul className="">
+            <ul className="flex flex-wrap  gap-3">
                 {github && (
-                    <li>
+                    <li className="flex">
                         <a href={github} className="">
                             <FaGithub className="mr-1" />
-                            repo
                         </a>
+                        <div> repo</div>
                     </li>
                 )}
                 {docs && (
-                    <li>
+                    <li className="flex">
                         <a href={docs} className="">
                             <FaFileAlt className="mr-1" />
-                            docs
                         </a>
+                        <div> docs</div>
                     </li>
                 )}
                 {live && (
-                    <li>
+                    <li className="flex">
                         <a href={live} className="">
                             <FaExternalLinkAlt className="mr-1" />
-                            live
                         </a>
+                        <div> live</div>
                     </li>
                 )}
             </ul>

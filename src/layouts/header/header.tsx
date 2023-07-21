@@ -4,7 +4,7 @@ import Social from '#/components/header/social'
 
 const Header = () => {
     return (
-        <header>
+        <header className="">
             <div className="container">
                 <Content />
                 <Nav />

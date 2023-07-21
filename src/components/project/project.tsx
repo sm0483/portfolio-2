@@ -9,17 +9,17 @@ const Project = ({
     technologies,
 }: ProjectType) => {
     return (
-        <div className="">
-            <h3 className="">{title}</h3>
-            <ul className="text-sm">
+        <div className="space-y-4 glass">
+            <h3 className="font-bold opacity-100 ">{title}</h3>
+            <ul className="min-w-md text-sm space-y-2">
                 {points.map((point, index) => (
                     <li key={index}>{point}</li>
                 ))}
             </ul>
             <Links {...LinkProps} />
-            <ul className=" ">
+            <ul className=" flex flex-wrap gap-4">
                 {technologies.map((technology, index) => (
-                    <li key={index} className="m-0 ">
+                    <li key={index} className="m-0">
                         <Tech technology={technology} />
                     </li>
                 ))}
