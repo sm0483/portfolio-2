@@ -17,7 +17,7 @@ const Project = ({
                 ))}
             </ul>
             <Links {...LinkProps} />
-            <ul className=" flex flex-wrap gap-4">
+            <ul className=" flex flex-wrap gap-1">
                 {technologies.map((technology, index) => (
                     <li key={index} className="m-0">
                         <Tech technology={technology} />

@@ -24,7 +24,7 @@ const Footer = () => {
                         Tailwind CSS
                     </a>
                 </p>
-                <p className="mt-1 max-w-sm  capitalize">
+                <p className="mt-1 max-w-sm  text-xs capitalize">
                     <a
                         href="https://brittanychiang.com/"
                         target="_blank"

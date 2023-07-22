@@ -74,7 +74,7 @@ body {
 
 .glass {
     @apply lg:rounded lg:bg-opacity-75 lg:p-3 lg:py-7;
-    @apply lg:hover:px-6 lg:hover:backdrop-blur-md;
+    @apply lg:hover:pl-6 lg:hover:backdrop-blur-md;
     @apply hover:ring-offset-[0.25px] hover:ring-offset-white lg:ring-0 lg:ring-offset-0 lg:ring-offset-black lg:hover:ring-opacity-5;
     @apply lg:hover:bg-white lg:hover:bg-opacity-5;
     @apply md:rounded-lg lg:transition-all lg:duration-500 lg:ease-out lg:hover:shadow-lg;

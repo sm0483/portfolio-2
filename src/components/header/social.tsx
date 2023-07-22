@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Social = () => {
     return (
-        <div className="mt-6 flex gap-6 text-white lg:mt-60">
+        <div className="mt-6 flex gap-6 text-white lg:mt-44">
             <a
                 href="https://github.com/your-github-profile"
                 aria-label="github"
