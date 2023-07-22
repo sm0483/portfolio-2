@@ -21,7 +21,7 @@ const Exps = () => {
             </div>
             <div className="group capitalize">
                 <a
-                    href="/path/to/resume.pdf"
+                    href={process.env.NEXT_RESUME_LINK}
                     download
                     className="text-animation text-white hover:underline"
                 >

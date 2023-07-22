@@ -9,9 +9,9 @@ const Project = ({
     technologies,
 }: ProjectType) => {
     return (
-        <div className="space-y-4 glass">
-            <h3 className="font-bold opacity-100 ">{title}</h3>
-            <ul className="min-w-md text-sm space-y-2">
+        <div className="glass space-y-4">
+            <h3 className="font-bold capitalize opacity-100 ">{title}</h3>
+            <ul className="min-w-md space-y-2 text-sm">
                 {points.map((point, index) => (
                     <li key={index}>{point}</li>
                 ))}

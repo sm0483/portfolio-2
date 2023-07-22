@@ -1,10 +1,11 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
 
 const Social = () => {
     return (
         <div className="mt-6 flex gap-6 text-white lg:mt-44">
             <a
-                href="https://github.com/your-github-profile"
+                href={process.env.NEXT_GITHUB}
                 aria-label="github"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -13,7 +14,7 @@ const Social = () => {
                 <FaGithub size={24} />
             </a>
             <a
-                href="https://twitter.com/your-twitter-profile"
+                href={process.env.NEXT_TWITTER}
                 target="_blank"
                 aria-label="twitter"
                 rel="noopener noreferrer"
@@ -22,7 +23,7 @@ const Social = () => {
                 <FaTwitter size={24} />
             </a>
             <a
-                href="https://www.linkedin.com/in/your-linkedin-profile"
+                href={process.env.NEXT_LINKEDIN}
                 target="_blank"
                 aria-label="linkedin"
                 rel="noopener noreferrer"

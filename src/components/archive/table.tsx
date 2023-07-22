@@ -13,8 +13,16 @@ const Table = ({ data }: TableProps) => {
         <section>
             <div className="container mx-auto">
                 <div className="mx-8">
-                    <div className="  px-2  text-xl text-red hover:underline">
-                        <Link href="/">&larr; Sreerag M</Link>
+                    <div className=" group flex  px-2 text-xl  text-red hover:underline">
+                        <div>&larr;</div>
+                        <Link
+                            href="/"
+                            className="transition-all duration-300 ease-in-out
+                     group-hover:ml-1 group-focus:ml-2"
+                        >
+                            {' '}
+                            Sreerag M
+                        </Link>
                     </div>
                     <h1 className="mt-4 px-2 text-4xl font-bold">
                         All Projects
@@ -61,7 +69,8 @@ const Table = ({ data }: TableProps) => {
                                 <div
                                     className=" col-span-3 
                                     border-b border-white 
-                                    border-opacity-20 p-2 lg:col-span-2 
+                                    border-opacity-20 p-2 capitalize 
+                                    lg:col-span-2
                                  
                                  "
                                 >
