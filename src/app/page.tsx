@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Cursor from '#/components/cursor/cursor'
 import Header from '#/layouts/header/header'
 import Main from '#/components/main'
+import { NavProvider } from '#/context/nav.context'
 
 export default function Page() {
     const [divPosition, setDivPosition] = useState({ top: 0, left: 0 })
@@ -20,15 +21,17 @@ export default function Page() {
         >
             <FontFamily />
             <Cursor divPosition={divPosition} />
-            <div
-                className="top-0 pt-20 lg:sticky 
+            <NavProvider>
+                <div
+                    className="top-0 pt-20 lg:sticky 
             lg:h-screen lg:w-1/2 lg:pt-28 "
-            >
-                <Header />
-            </div>
-            <div className="mb-4 lg:mb-16 lg:w-1/2 lg:pt-28">
-                <Main />
-            </div>
+                >
+                    <Header />
+                </div>
+                <div className="mb-4 lg:mb-16 lg:w-1/2 lg:pt-28">
+                    <Main />
+                </div>
+            </NavProvider>
         </div>
     )
 }

@@ -1,28 +1,34 @@
 import Links from '../links/link'
-import Link from 'next/link'
 import { archiveType } from '#/types/archive.type'
 import React from 'react'
 import Tech from '../tech/tech'
+import { useRouter } from 'next/navigation'
 
 interface TableProps {
     data: archiveType[]
 }
 
 const Table = ({ data }: TableProps) => {
+    const router = useRouter()
+    const handlerClick = () => {
+        if (typeof window !== 'undefined') router.push('/')
+    }
     return (
         <section>
             <div className="container mx-auto">
                 <div className="mx-8">
-                    <div className=" group flex  px-2 text-xl  text-red hover:underline">
+                    <div
+                        className=" group flex  px-2 text-xl 
+                     text-red hover:underline"
+                        onClick={handlerClick}
+                    >
                         <div>&larr;</div>
-                        <Link
-                            href="/"
-                            className="transition-all duration-300 ease-in-out
-                     group-hover:ml-1 group-focus:ml-2"
+                        <div
+                            className="transition-all duration-300
+                             ease-in-out group-hover:ml-1 group-focus:ml-2"
                         >
-                            {' '}
                             Sreerag M
-                        </Link>
+                        </div>
                     </div>
                     <h1 className="mt-4 px-2 text-4xl font-bold">
                         All Projects

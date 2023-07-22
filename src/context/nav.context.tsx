@@ -59,23 +59,19 @@ export function NavProvider({ children }: { children: ReactNode }) {
         if (ref4.current) {
             observer.observe(ref4.current)
         }
-        const currentRef1 = ref1.current
-        const currentRef2 = ref2.current
-        const currentRef3 = ref3.current
-        const currentRef4 = ref4.current
 
         return () => {
-            if (currentRef1) {
-                observer.unobserve(currentRef1)
+            if (ref1.current) {
+                observer.unobserve(ref1.current)
             }
-            if (currentRef2) {
-                observer.unobserve(currentRef2)
+            if (ref2.current) {
+                observer.unobserve(ref2.current)
             }
-            if (currentRef3) {
-                observer.unobserve(currentRef3)
+            if (ref3.current) {
+                observer.unobserve(ref3.current)
             }
-            if (currentRef4) {
-                observer.unobserve(currentRef4)
+            if (ref4.current) {
+                observer.unobserve(ref4.current)
             }
         }
     }, [])

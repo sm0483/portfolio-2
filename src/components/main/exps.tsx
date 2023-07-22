@@ -21,7 +21,7 @@ const Exps = () => {
             </div>
             <div className="group capitalize">
                 <a
-                    href={process.env.NEXT_RESUME_LINK}
+                    href={process.env.NEXT_PUBLIC_RESUME_LINK}
                     download
                     className="text-animation text-white hover:underline"
                 >

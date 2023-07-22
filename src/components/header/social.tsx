@@ -5,7 +5,7 @@ const Social = () => {
     return (
         <div className="mt-6 flex gap-6 text-white lg:mt-44">
             <a
-                href={process.env.NEXT_GITHUB}
+                href={process.env.NEXT_PUBLIC_GITHUB}
                 aria-label="github"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -14,7 +14,7 @@ const Social = () => {
                 <FaGithub size={24} />
             </a>
             <a
-                href={process.env.NEXT_TWITTER}
+                href={process.env.NEXT_PUBLIC_TWITTER}
                 target="_blank"
                 aria-label="twitter"
                 rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Social = () => {
                 <FaTwitter size={24} />
             </a>
             <a
-                href={process.env.NEXT_LINKEDIN}
+                href={process.env.NEXT_PUBLIC_LINKEDIN}
                 target="_blank"
                 aria-label="linkedin"
                 rel="noopener noreferrer"

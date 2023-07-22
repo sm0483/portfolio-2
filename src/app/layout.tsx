@@ -13,9 +13,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <NavProvider>
-                <body>{children}</body>
-            </NavProvider>
+            <body>{children}</body>
         </html>
     )
 }

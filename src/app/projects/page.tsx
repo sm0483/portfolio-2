@@ -1,3 +1,4 @@
+'use client'
 import data from '#/data/archive'
 import Table from '#/components/archive/table'
 
