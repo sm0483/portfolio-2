@@ -4,11 +4,17 @@ const About = () => {
     const { ref1 } = useNavContext()
     return (
         <section ref={ref1} data-id="section1" id="about">
-            <div className="container space-y-3 text-white lg:space-y-4 ">
-                <h2 className=" sm-head font-bold uppercase opacity-100 ">
+            <div
+                className="container 
+             space-y-3 text-white lg:min-h-[50vh] lg:space-y-4 lg:px-3  "
+            >
+                <h2
+                    className="sm-head  font-bold uppercase 
+                opacity-100 "
+                >
                     About
                 </h2>
-                <p className=" min-w-md  ">
+                <p className=" max-w-md  ">
                     Hi there! My name is{' '}
                     <a className="text-animation font-medium">Sreerag M</a> and
                     I am a student at{' '}
@@ -18,13 +24,13 @@ const About = () => {
                     . I am passionate about building backend applications and
                     web development in general.
                 </p>
-                <p className="min-w-md">
+                <p className="max-w-md">
                     Ever since I discovered the power of code, I have been
                     fascinated by the endless possibilities it offers. I love
                     the challenge of solving complex problems and building
                     efficient and scalable systems
                 </p>
-                <p className="min-w-md">
+                <p className="max-w-md">
                     In my free time, you can find me tinkering with new
                     technologies and experimenting with different frameworks and
                     tools. I am always eager to learn and grow, and I am excited

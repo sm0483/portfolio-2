@@ -23,7 +23,7 @@ const NavContext = createContext<NavType>({
 export function NavProvider({ children }: { children: ReactNode }) {
     const options = {
         root: null,
-        rootMargin: '0px',
+        rootMargin: '0px 0px 0px 0px',
         threshold: 0.5,
     }
 

@@ -13,7 +13,7 @@ const Projects = () => {
             id="project"
             className="space-y-8"
         >
-            <div className="container space-y-7 text-white lg:space-y-10 ">
+            <div className="container space-y-7 text-white lg:space-y-6 ">
                 <h2 className="sm-head font-bold uppercase opacity-100">
                     Projects
                 </h2>

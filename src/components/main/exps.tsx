@@ -9,9 +9,9 @@ const Exps = () => {
             ref={ref2}
             data-id="section2"
             id="experience"
-            className="space-y-8"
+            className="space-y-6"
         >
-            <div className="container space-y-7  text-white lg:space-y-10 ">
+            <div className="container space-y-7  text-white lg:space-y-6  ">
                 <h2 className="sm-head font-bold uppercase opacity-100">
                     Experience
                 </h2>

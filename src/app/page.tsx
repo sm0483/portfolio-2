@@ -13,17 +13,20 @@ export default function Page() {
             className="hide-scrollbar mx-8 lg:mx-48 lg:flex "
             onMouseMove={(e) => {
                 setDivPosition({
-                    top: e.clientY - 250,
-                    left: e.clientX - 250,
+                    top: e.clientY - 325,
+                    left: e.clientX - 325,
                 })
             }}
         >
             <FontFamily />
             <Cursor divPosition={divPosition} />
-            <div className="top-0 pt-8 lg:sticky lg:h-screen lg:w-1/2 lg:pt-28 ">
+            <div
+                className="top-0 pt-20 lg:sticky 
+            lg:h-screen lg:w-1/2 lg:pt-28 "
+            >
                 <Header />
             </div>
-            <div className="lg:w-1/2 lg:pt-28 lg:mb-16 mb-4">
+            <div className="mb-4 lg:mb-16 lg:w-1/2 lg:pt-28">
                 <Main />
             </div>
         </div>

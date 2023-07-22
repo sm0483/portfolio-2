@@ -19,15 +19,6 @@ const experienceItems: experienceType[] = [
             'Implementing interactive features and optimizing performance.',
         ],
     },
-    {
-        title: 'X Web Team',
-        role: 'Web Developer',
-        duration: 'March 2023 - Present',
-        responsibilities: [
-            'Contributing to the development of TEDx event websites.',
-            'Implementing interactive features and optimizing performance.',
-        ],
-    },
 ]
 
 export default experienceItems
