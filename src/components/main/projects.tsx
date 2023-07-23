@@ -21,7 +21,7 @@ const Projects = () => {
                     <Project key={index} {...item} />
                 ))}
 
-                <div className="text-animation group capitalize hover:underline ">
+                <div className="text-animation group capitalize  ">
                     <Link href="/projects">View Full project Archive</Link>
                     <span
                         className="transition-all duration-300 ease-in-out

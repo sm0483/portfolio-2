@@ -23,7 +23,7 @@ const Exps = () => {
                 <a
                     href={process.env.NEXT_PUBLIC_RESUME_LINK}
                     download
-                    className="text-animation text-white hover:underline"
+                    className="text-animation text-white "
                 >
                     Download Resume
                     <span

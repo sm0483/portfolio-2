@@ -16,9 +16,17 @@ const About = () => {
                 </h2>
                 <p className=" max-w-md  ">
                     Hi there! My name is{' '}
-                    <a className="text-animation font-medium">Sreerag M</a> and
-                    I am a student at{' '}
-                    <a className="text-animation font-medium">
+                    <a
+                        href="http://www.sreerag.me/"
+                        className="text-animation font-medium"
+                    >
+                        Sreerag M
+                    </a>{' '}
+                    and I am a student at{' '}
+                    <a
+                        href="http://www.rit.ac.in/"
+                        className="text-animation font-medium"
+                    >
                         Rajiv Gandhi Institute Of Technology
                     </a>
                     . I am passionate about building backend applications and

@@ -15,10 +15,10 @@ const Table = ({ data }: TableProps) => {
     }
     return (
         <section>
-            <div className="container mx-auto">
-                <div className="mx-8">
+            <div className="container mx-auto ">
+                <div className="mx-8 ">
                     <div
-                        className=" group flex  px-2 text-xl 
+                        className=" group flex cursor-pointer  px-2 text-xl 
                      text-red hover:underline"
                         onClick={handlerClick}
                     >
@@ -73,14 +73,34 @@ const Table = ({ data }: TableProps) => {
                                     {row.year}
                                 </div>
                                 <div
-                                    className=" col-span-3 
-                                    border-b border-white 
-                                    border-opacity-20 p-2 capitalize 
-                                    lg:col-span-2
+                                    className=" group 
+                                    col-span-3 border-b 
+                                    border-white border-opacity-20 p-2 
+                                     capitalize lg:col-span-2
                                  
                                  "
                                 >
-                                    {row.project}
+                                    <a
+                                        href={
+                                            row.links?.live
+                                                ? row.links.live
+                                                : row.links?.github
+                                        }
+                                        className="transition-all 
+                                        duration-500 ease-in-out 
+                                        group-hover:mr-2 group-hover:text-red"
+                                    >
+                                        {row.project}
+                                    </a>
+                                    <span
+                                        style={{
+                                            display: 'inline-block',
+                                            transform: 'rotate(325deg)',
+                                        }}
+                                        className=" group-hover:text-red"
+                                    >
+                                        &#x2192;
+                                    </span>
                                 </div>
                                 <div
                                     className="hidden flex-wrap gap-y-2

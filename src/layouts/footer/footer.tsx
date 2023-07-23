@@ -2,15 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 p-4 text-sm text-white sm:p-2">
+        <footer className="bg-gray-800 p-4 text-xs text-white ">
             <div className="container flex flex-col text-start ">
-                <p className="max-w-sm text-xs">
+                <p className="max-w-sm text-xs ">
                     Made with ❤️ using{' '}
                     <a
                         href="https://nextjs.org/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-animation hover:text-blue-300 "
+                        className="text-animation "
                     >
                         Next.js
                     </a>{' '}
@@ -19,19 +19,20 @@ const Footer = () => {
                         href="https://tailwindcss.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-animation hover:text-blue-300 "
+                        className="text-animation "
                     >
-                        Tailwind CSS
+                        Tailwind
                     </a>
                 </p>
                 <p className="mt-1 max-w-sm  text-xs capitalize">
+                    design inspiration from{'  '}
                     <a
                         href="https://brittanychiang.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-animation hover:text-blue-300 "
+                        className="text-animation "
                     >
-                        design inspiration from Brittany Chiang
+                        Brittany Chiang
                     </a>
                 </p>
             </div>
