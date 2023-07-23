@@ -22,7 +22,12 @@ const Projects = () => {
                 ))}
 
                 <div className="text-animation group capitalize  ">
-                    <Link href="/projects">View Full project Archive</Link>
+                    <Link
+                        href="/projects"
+                        className="underline-offset-4 group-hover:underline"
+                    >
+                        View Full project Archive
+                    </Link>
                     <span
                         className="transition-all duration-300 ease-in-out
                      group-hover:ml-1 group-focus:ml-2"

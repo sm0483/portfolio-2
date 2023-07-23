@@ -24,11 +24,11 @@ export default function Page() {
             <NavProvider>
                 <div
                     className="top-0 pt-20 lg:sticky 
-            lg:h-screen lg:w-1/2 lg:pt-28 "
+            lg:h-screen lg:w-1/2 lg:pt-28  "
                 >
                     <Header />
                 </div>
-                <div className="mb-4 lg:mb-16 lg:w-1/2 lg:pt-28">
+                <div className="mb-8 lg:mb-16 lg:w-1/2 lg:pt-28 ">
                     <Main />
                 </div>
             </NavProvider>

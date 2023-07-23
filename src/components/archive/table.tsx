@@ -19,7 +19,7 @@ const Table = ({ data }: TableProps) => {
                 <div className="mx-8 ">
                     <div
                         className=" group flex cursor-pointer  px-2 text-xl 
-                     text-red hover:underline"
+                     text-red "
                         onClick={handlerClick}
                     >
                         <div>&larr;</div>

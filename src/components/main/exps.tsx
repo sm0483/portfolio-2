@@ -19,20 +19,20 @@ const Exps = () => {
                     <Exp key={index} {...item} />
                 ))}
             </div>
-            <div className="group capitalize">
+            <div className="text-animation group capitalize">
                 <a
                     href={process.env.NEXT_PUBLIC_RESUME_LINK}
                     download
-                    className="text-animation text-white "
+                    className="underline-offset-4 group-hover:underline"
                 >
                     Download Resume
-                    <span
-                        className="transition-all 
-                     duration-300 ease-in-out group-hover:ml-2 group-focus:ml-1"
-                    >
-                        &#8594;
-                    </span>
                 </a>
+                <span
+                    className="transition-all 
+                     duration-300 ease-in-out group-hover:ml-2 group-focus:ml-1"
+                >
+                    &#8594;
+                </span>
             </div>
         </section>
     )
