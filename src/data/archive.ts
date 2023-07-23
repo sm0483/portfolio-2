@@ -20,7 +20,7 @@ const archive: archiveType[] = [
     {
         year: 2023,
         project: 'social-media-api',
-        builtWith: ['TypeScript', 'Express', 'mongodb', 'aws-s3'],
+        builtWith: ['TypeScript', 'Express', 'mongodb', 'aws s3'],
         links: {
             github: 'https://github.com/sm0483/social-media-api',
         },
@@ -28,7 +28,7 @@ const archive: archiveType[] = [
     {
         year: 2023,
         project: 'skillvine-api',
-        builtWith: ['TypeScript', 'Express', 'mongodb', 'aws-s3'],
+        builtWith: ['TypeScript', 'Express', 'mongodb', 'aws s3'],
         links: {
             github: 'https://github.com/sm0483/skillvine-api',
             live: 'https://rit.skillvine.tech/',

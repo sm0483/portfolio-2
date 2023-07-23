@@ -9,7 +9,7 @@ const Project = ({
     technologies,
 }: ProjectType) => {
     return (
-        <div className="glass space-y-4">
+        <div className="glass space-y-4 text-white text-opacity-70">
             <h3 className="font-bold capitalize opacity-100 ">{title}</h3>
             <ul className="min-w-md space-y-2 text-sm">
                 {points.map((point, index) => (

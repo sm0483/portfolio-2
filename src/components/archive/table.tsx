@@ -35,11 +35,11 @@ const Table = ({ data }: TableProps) => {
                     </h1>
 
                     <div
-                        className=" mt-12 grid 
-                    grid-cols-4 gap-y-3 text-sm lg:grid-cols-7"
+                        className="  mt-12 grid grid-cols-4 gap-y-3
+                    text-sm text-white text-opacity-70 lg:grid-cols-7"
                     >
                         <div
-                            className=" archive-head 
+                            className="  archive-head 
                          col-span-1 border-b border-white border-opacity-20 p-2"
                         >
                             Year
@@ -74,9 +74,9 @@ const Table = ({ data }: TableProps) => {
                                 </div>
                                 <div
                                     className=" group 
-                                    col-span-3 border-b 
-                                    border-white border-opacity-20 p-2 
-                                     capitalize lg:col-span-2
+                                    col-span-3 border-b border-white
+                                    border-opacity-20 p-2 font-medium 
+                                     capitalize text-white text-opacity-100 lg:col-span-2
                                  
                                  "
                                 >

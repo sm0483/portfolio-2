@@ -6,7 +6,8 @@ const About = () => {
         <section ref={ref1} data-id="section1" id="about">
             <div
                 className="container 
-             space-y-3 text-white lg:min-h-[50vh] lg:space-y-4 lg:px-3  "
+             space-y-3 text-white lg:min-h-[50vh]
+              lg:space-y-4 lg:px-3 text-opacity-70 "
             >
                 <h2
                     className="sm-head  font-bold uppercase 

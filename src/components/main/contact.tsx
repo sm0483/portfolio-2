@@ -40,8 +40,8 @@ const Contact = () => {
     return (
         <section ref={ref4} data-id="section4" id="contact">
             <div className="container space-y-3 text-white lg:space-y-4 ">
-                <h2 className="sm-head font-bold uppercase">Get in Touch</h2>
-                <p className="min-w-md capitalize">
+                <h2 className="sm-head font-bold  uppercase">Get in Touch</h2>
+                <p className="min-w-md capitalize text-white text-opacity-70">
                     {`    I am always excited to collaborate on new projects, bring
                     innovative ideas to life, and contribute to meaningful
                     missions. If you'd like to get in touch with me, please fill

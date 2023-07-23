@@ -32,14 +32,18 @@ const Nav = () => {
                         style={{
                             height: '1.5px',
                             width: activeButton == 'section1' ? '64px' : '32px',
-                            backgroundColor: 'grey',
+                            backgroundColor: 'white',
                             transition: 'all 300ms ease-out',
+                            opacity: activeButton == 'section1' ? 1 : 0.7,
                         }}
                     ></div>
 
                     <a
                         className="nav-a-animation group-hover:w-16"
                         href="#about"
+                        style={{
+                            opacity: activeButton == 'section1' ? 1 : 0.7,
+                        }}
                     >
                         About
                     </a>
@@ -69,14 +73,18 @@ const Nav = () => {
                         style={{
                             height: '1.5px',
                             width: activeButton == 'section2' ? '64px' : '32px',
-                            backgroundColor: 'grey',
+                            backgroundColor: 'white',
                             transition: 'all 300ms ease-out',
+                            opacity: activeButton == 'section2' ? 1 : 0.7,
                         }}
                     ></div>
 
                     <a
                         className="nav-a-animation group-hover:w-16"
                         href="#experience"
+                        style={{
+                            opacity: activeButton == 'section2' ? 1 : 0.7,
+                        }}
                     >
                         Experience
                     </a>
@@ -106,14 +114,18 @@ const Nav = () => {
                         style={{
                             height: '1.5px',
                             width: activeButton == 'section3' ? '64px' : '32px',
-                            backgroundColor: 'grey',
+                            backgroundColor: 'white',
                             transition: 'all 300ms ease-out',
+                            opacity: activeButton == 'section3' ? 1 : 0.7,
                         }}
                     ></div>
 
                     <a
                         className="nav-a-animation group-hover:w-16"
                         href="#project"
+                        style={{
+                            opacity: activeButton == 'section3' ? 1 : 0.7,
+                        }}
                     >
                         Projects
                     </a>
@@ -143,14 +155,18 @@ const Nav = () => {
                         style={{
                             height: '1.5px',
                             width: activeButton == 'section4' ? '64px' : '32px',
-                            backgroundColor: 'grey',
+                            backgroundColor: 'white',
                             transition: 'all 300ms ease-out',
+                            opacity: activeButton == 'section4' ? 1 : 0.7,
                         }}
                     ></div>
 
                     <a
                         className="nav-a-animation group-hover:w-16"
                         href="#contact"
+                        style={{
+                            opacity: activeButton == 'section4' ? 1 : 0.7,
+                        }}
                     >
                         Contact
                     </a>

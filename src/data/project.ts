@@ -32,7 +32,7 @@ const projects: ProjectType[] = [
             'Implemented Oauth2',
             'Implemented  image storage functionality and pagination',
         ],
-        technologies: ['TypeScript', 'Express', 'Aws-S3', 'MongoDB'],
+        technologies: ['TypeScript', 'Express', 'Aws S3', 'MongoDB'],
         links: {
             github: 'https://github.com/sm0483/social-media-api',
             docs: 'https://documenter.getpostman.com/view/21080448/2s93Y2Sgkf',

@@ -23,12 +23,15 @@ export default function Page() {
             <Cursor divPosition={divPosition} />
             <NavProvider>
                 <div
-                    className="top-0 pt-20 lg:sticky 
-            lg:h-screen lg:w-1/2 lg:pt-28  "
+                    className="top-0 pt-20
+            lg:sticky lg:h-screen lg:w-1/2 lg:pt-28 "
                 >
                     <Header />
                 </div>
-                <div className="mb-8 lg:mb-16 lg:w-1/2 lg:pt-28 ">
+                <div
+                    className="mb-8 lg:mb-16 
+                lg:w-1/2 lg:pt-28 "
+                >
                     <Main />
                 </div>
             </NavProvider>
