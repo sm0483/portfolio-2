@@ -23,8 +23,7 @@ const NavContext = createContext<NavType>({
 export function NavProvider({ children }: { children: ReactNode }) {
     const options = {
         root: null,
-        rootMargin: '0px 0px 0px 0px',
-        threshold: 0.5,
+        threshold: 0.7,
     }
 
     const ref1 = useRef<HTMLInputElement>(null)

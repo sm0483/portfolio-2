@@ -33,7 +33,7 @@ const Nav = () => {
                             height: '1.5px',
                             width: activeButton == 'section1' ? '64px' : '32px',
                             backgroundColor: 'white',
-                            transition: 'all 300ms ease-out',
+                            transition: 'all 250ms ease-out',
                             opacity: activeButton == 'section1' ? 1 : 0.7,
                         }}
                     ></div>
@@ -74,7 +74,7 @@ const Nav = () => {
                             height: '1.5px',
                             width: activeButton == 'section2' ? '64px' : '32px',
                             backgroundColor: 'white',
-                            transition: 'all 300ms ease-out',
+                            transition: 'all 250ms ease-out',
                             opacity: activeButton == 'section2' ? 1 : 0.7,
                         }}
                     ></div>
@@ -115,7 +115,7 @@ const Nav = () => {
                             height: '1.5px',
                             width: activeButton == 'section3' ? '64px' : '32px',
                             backgroundColor: 'white',
-                            transition: 'all 300ms ease-out',
+                            transition: 'all 250ms ease-out',
                             opacity: activeButton == 'section3' ? 1 : 0.7,
                         }}
                     ></div>
@@ -156,7 +156,7 @@ const Nav = () => {
                             height: '1.5px',
                             width: activeButton == 'section4' ? '64px' : '32px',
                             backgroundColor: 'white',
-                            transition: 'all 300ms ease-out',
+                            transition: 'all 250ms ease-out',
                             opacity: activeButton == 'section4' ? 1 : 0.7,
                         }}
                     ></div>
