@@ -15,7 +15,7 @@ const About = () => {
                 >
                     About
                 </h2>
-                <p className=" max-w-md  ">
+                <p className=" max-w-md text-justify">
                     Hi there! My name is{' '}
                     <a
                         href="http://www.sreerag.me/"
@@ -33,13 +33,13 @@ const About = () => {
                     . I am passionate about building backend applications and
                     web development in general.
                 </p>
-                <p className="max-w-md">
+                <p className="max-w-md text-justify	">
                     Ever since I discovered the power of code, I have been
                     fascinated by the endless possibilities it offers. I love
                     the challenge of solving complex problems and building
                     efficient and scalable systems
                 </p>
-                <p className="max-w-md">
+                <p className="max-w-md text-justify	">
                     In my free time, you can find me tinkering with new
                     technologies and experimenting with different frameworks and
                     tools. I am always eager to learn and grow, and I am excited

@@ -11,13 +11,13 @@ const Project = ({
     return (
         <div className="glass space-y-4 text-white text-opacity-70">
             <h3 className="font-bold capitalize opacity-100 ">{title}</h3>
-            <ul className="min-w-md space-y-2 text-sm">
+            <ul className="min-w-md space-y-2 text-sm text-justify">
                 {points.map((point, index) => (
-                    <li key={index}>{point}</li>
+                    <li className='text-justify' key={index}>{point}</li>
                 ))}
             </ul>
             <Links {...LinkProps} />
-            <ul className=" flex flex-wrap gap-1">
+            <ul className=" flex flex-wrap gap-1 text-justify">
                 {technologies.map((technology, index) => (
                     <li key={index} className="m-0">
                         <Tech technology={technology} />
